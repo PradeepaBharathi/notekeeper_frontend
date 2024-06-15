@@ -1,0 +1,75 @@
+.create{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  height: 100vh;
+}
+
+
+.remainder{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 10px;
+    background: #FAD0C9FF;
+}
+
+.remainder-btn{
+    background-color: rgb(218, 218, 216);
+    border: 1px solid transparent;
+    border-radius: 30px;
+    font-style: italic;
+
+}
+
+
+
+h3{
+    text-align: center;
+}
+
+
+.create-note{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+ 
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 30px;
+    width: max-content;
+}
+
+.create-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tool-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:426px) and (min-width:320px) {
+    .create{
+        margin-left: 50px;
+        margin-bottom: 150px;
+        
+    }
+    
+}
+
+@media screen and (min-width:728px){
+    .create{
+        margin-bottom: 140px;
+     
+    }}
+
+@media screen and (min-width:1024px){
+    .create{
+        margin-bottom: 360px;
+     
+    }
+}

@@ -1,0 +1,43 @@
+.heading{
+    margin-left: 2px;
+  
+    
+}
+.navbar {
+    width: 100vw; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+  }
+.note-logo{
+    height: 50px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap:1rem
+}
+
+.nav-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:1rem
+}
+
+.search-bar{
+    width: 40rem;
+   margin-left: 30px;
+  
+}
+
+@media screen and (max-width:426px) and (min-width:320px) {
+    .search-bar{
+        visibility: hidden;
+    }
+
+    .nav-left,.navbar,.nav-right{
+        gap:0.1rem
+    }
+    
+}
