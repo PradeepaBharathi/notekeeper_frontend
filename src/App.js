@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Nav from './Component/Navbar/Nav';
-import Home from './Component/Home/Home';
+
 import {  useThemeContext } from './Component/Theme/Theme';
 import Createnote from './Component/CreateNote/Createnote';
 import AllNotes from './Component/AllNote/Allnotes';

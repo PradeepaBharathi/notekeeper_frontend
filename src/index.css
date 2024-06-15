@@ -17,11 +17,11 @@ body  {
   background: linear-gradient(180deg, #333 70%, #000);
   color: #fff; }
 .icon-light {
-  color: #000; /* Black color for light theme */
+  color: #000; 
 }
 
 .icon-dark {
-  color: #fff; /* White color for dark theme */
+  color: #fff;
 }
 
 code {
